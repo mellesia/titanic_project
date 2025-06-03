@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,title
+1, Not Survived,3,male,22.0,1,0,7.25,Southampton,Mr
+2,Survived,1,female,38.0,1,0,71.2833,Cherbourg,Mrs
+3,Survived,3,female,26.0,0,0,7.925,Southampton,Miss
+4,Survived,1,female,35.0,1,0,53.1,Southampton,Mrs
+5, Not Survived,3,male,35.0,0,0,8.05,Southampton,Mr
+6, Not Survived,3,male,,0,0,8.4583,Queenstown,Mr
+7, Not Survived,1,male,54.0,0,0,51.8625,Southampton,Mr
+8, Not Survived,3,male,2.0,3,1,21.075,Southampton,Master
+9,Survived,3,female,27.0,0,2,11.1333,Southampton,Mrs
+10,Survived,2,female,14.0,1,0,30.0708,Cherbourg,Mrs
+11,Survived,3,female,4.0,1,1,16.7,Southampton,Miss
+12,Survived,1,female,58.0,0,0,26.55,Southampton,Miss
+13, Not Survived,3,male,20.0,0,0,8.05,Southampton,Mr
+14, Not Survived,3,male,39.0,1,5,31.275,Southampton,Mr
+15, Not Survived,3,female,14.0,0,0,7.8542,Southampton,Miss
+16,Survived,2,female,55.0,0,0,16.0,Southampton,Mrs
+17, Not Survived,3,male,2.0,4,1,29.125,Queenstown,Master
+18,Survived,2,male,,0,0,13.0,Southampton,Mr
+19, Not Survived,3,female,31.0,1,0,18.0,Southampton,Mrs
+20,Survived,3,female,,0,0,7.225,Cherbourg,Mrs
+21, Not Survived,2,male,35.0,0,0,26.0,Southampton,Mr
+22,Survived,2,male,34.0,0,0,13.0,Southampton,Mr
+23,Survived,3,female,15.0,0,0,8.0292,Queenstown,Miss
+24,Survived,1,male,28.0,0,0,35.5,Southampton,Mr
+25, Not Survived,3,female,8.0,3,1,21.075,Southampton,Miss
+26,Survived,3,female,38.0,1,5,31.3875,Southampton,Mrs
+27, Not Survived,3,male,,0,0,7.225,Cherbourg,Mr
+28, Not Survived,1,male,19.0,3,2,263.0,Southampton,Mr
+29,Survived,3,female,,0,0,7.8792,Queenstown,Miss
+30, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+31, Not Survived,1,male,40.0,0,0,27.7208,Cherbourg,Mr
+32,Survived,1,female,,1,0,146.5208,Cherbourg,Mrs
+33,Survived,3,female,,0,0,7.75,Queenstown,Miss
+34, Not Survived,2,male,66.0,0,0,10.5,Southampton,Mr
+35, Not Survived,1,male,28.0,1,0,82.1708,Cherbourg,Mr
+36, Not Survived,1,male,42.0,1,0,52.0,Southampton,Mr
+37,Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+38, Not Survived,3,male,21.0,0,0,8.05,Southampton,Mr
+39, Not Survived,3,female,18.0,2,0,18.0,Southampton,Miss
+40,Survived,3,female,14.0,1,0,11.2417,Cherbourg,Miss
+41, Not Survived,3,female,40.0,1,0,9.475,Southampton,Mrs
+42, Not Survived,2,female,27.0,1,0,21.0,Southampton,Mrs
+43, Not Survived,3,male,,0,0,7.8958,Cherbourg,Mr
+44,Survived,2,female,3.0,1,2,41.5792,Cherbourg,Miss
+45,Survived,3,female,19.0,0,0,7.8792,Queenstown,Miss
+46, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+47, Not Survived,3,male,,1,0,15.5,Queenstown,Mr
+48,Survived,3,female,,0,0,7.75,Queenstown,Miss
+49, Not Survived,3,male,,2,0,21.6792,Cherbourg,Mr
+50, Not Survived,3,female,18.0,1,0,17.8,Southampton,Mrs
+51, Not Survived,3,male,7.0,4,1,39.6875,Southampton,Master
+52, Not Survived,3,male,21.0,0,0,7.8,Southampton,Mr
+53,Survived,1,female,49.0,1,0,76.7292,Cherbourg,Mrs
+54,Survived,2,female,29.0,1,0,26.0,Southampton,Mrs
+55, Not Survived,1,male,65.0,0,1,61.9792,Cherbourg,Mr
+56,Survived,1,male,,0,0,35.5,Southampton,Mr
+57,Survived,2,female,21.0,0,0,10.5,Southampton,Miss
+58, Not Survived,3,male,28.5,0,0,7.2292,Cherbourg,Mr
+59,Survived,2,female,5.0,1,2,27.75,Southampton,Miss
+60, Not Survived,3,male,11.0,5,2,46.9,Southampton,Master
+61, Not Survived,3,male,22.0,0,0,7.2292,Cherbourg,Mr
+62,Survived,1,female,38.0,0,0,80.0,,Miss
+63, Not Survived,1,male,45.0,1,0,83.475,Southampton,Mr
+64, Not Survived,3,male,4.0,3,2,27.9,Southampton,Master
+65, Not Survived,1,male,,0,0,27.7208,Cherbourg,Mr
+66,Survived,3,male,,1,1,15.2458,Cherbourg,Master
+67,Survived,2,female,29.0,0,0,10.5,Southampton,Mrs
+68, Not Survived,3,male,19.0,0,0,8.1583,Southampton,Mr
+69,Survived,3,female,17.0,4,2,7.925,Southampton,Miss
+70, Not Survived,3,male,26.0,2,0,8.6625,Southampton,Mr
+71, Not Survived,2,male,32.0,0,0,10.5,Southampton,Mr
+72, Not Survived,3,female,16.0,5,2,46.9,Southampton,Miss
+73, Not Survived,2,male,21.0,0,0,73.5,Southampton,Mr
+74, Not Survived,3,male,26.0,1,0,14.4542,Cherbourg,Mr
+75,Survived,3,male,32.0,0,0,56.4958,Southampton,Mr
+76, Not Survived,3,male,25.0,0,0,7.65,Southampton,Mr
+77, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+78, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+79,Survived,2,male,0.83,0,2,29.0,Southampton,Master
+80,Survived,3,female,30.0,0,0,12.475,Southampton,Miss
+81, Not Survived,3,male,22.0,0,0,9.0,Southampton,Mr
+82,Survived,3,male,29.0,0,0,9.5,Southampton,Mr
+83,Survived,3,female,,0,0,7.7875,Queenstown,Miss
+84, Not Survived,1,male,28.0,0,0,47.1,Southampton,Mr
+85,Survived,2,female,17.0,0,0,10.5,Southampton,Miss
+86,Survived,3,female,33.0,3,0,15.85,Southampton,Mrs
+87, Not Survived,3,male,16.0,1,3,34.375,Southampton,Mr
+88, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+89,Survived,1,female,23.0,3,2,263.0,Southampton,Miss
+90, Not Survived,3,male,24.0,0,0,8.05,Southampton,Mr
+91, Not Survived,3,male,29.0,0,0,8.05,Southampton,Mr
+92, Not Survived,3,male,20.0,0,0,7.8542,Southampton,Mr
+93, Not Survived,1,male,46.0,1,0,61.175,Southampton,Mr
+94, Not Survived,3,male,26.0,1,2,20.575,Southampton,Mr
+95, Not Survived,3,male,59.0,0,0,7.25,Southampton,Mr
+96, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+97, Not Survived,1,male,71.0,0,0,34.6542,Cherbourg,Mr
+98,Survived,1,male,23.0,0,1,63.3583,Cherbourg,Mr
+99,Survived,2,female,34.0,0,1,23.0,Southampton,Mrs
+100, Not Survived,2,male,34.0,1,0,26.0,Southampton,Mr
+101, Not Survived,3,female,28.0,0,0,7.8958,Southampton,Miss
+102, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+103, Not Survived,1,male,21.0,0,1,77.2875,Southampton,Mr
+104, Not Survived,3,male,33.0,0,0,8.6542,Southampton,Mr
+105, Not Survived,3,male,37.0,2,0,7.925,Southampton,Mr
+106, Not Survived,3,male,28.0,0,0,7.8958,Southampton,Mr
+107,Survived,3,female,21.0,0,0,7.65,Southampton,Miss
+108,Survived,3,male,,0,0,7.775,Southampton,Mr
+109, Not Survived,3,male,38.0,0,0,7.8958,Southampton,Mr
+110,Survived,3,female,,1,0,24.15,Queenstown,Miss
+111, Not Survived,1,male,47.0,0,0,52.0,Southampton,Mr
+112, Not Survived,3,female,14.5,1,0,14.4542,Cherbourg,Miss
+113, Not Survived,3,male,22.0,0,0,8.05,Southampton,Mr
+114, Not Survived,3,female,20.0,1,0,9.825,Southampton,Miss
+115, Not Survived,3,female,17.0,0,0,14.4583,Cherbourg,Miss
+116, Not Survived,3,male,21.0,0,0,7.925,Southampton,Mr
+117, Not Survived,3,male,70.5,0,0,7.75,Queenstown,Mr
+118, Not Survived,2,male,29.0,1,0,21.0,Southampton,Mr
+119, Not Survived,1,male,24.0,0,1,247.5208,Cherbourg,Mr
+120, Not Survived,3,female,2.0,4,2,31.275,Southampton,Miss
+121, Not Survived,2,male,21.0,2,0,73.5,Southampton,Mr
+122, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+123, Not Survived,2,male,32.5,1,0,30.0708,Cherbourg,Mr
+124,Survived,2,female,32.5,0,0,13.0,Southampton,Miss
+125, Not Survived,1,male,54.0,0,1,77.2875,Southampton,Mr
+126,Survived,3,male,12.0,1,0,11.2417,Cherbourg,Master
+127, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+128,Survived,3,male,24.0,0,0,7.1417,Southampton,Mr
+129,Survived,3,female,,1,1,22.3583,Cherbourg,Miss
+130, Not Survived,3,male,45.0,0,0,6.975,Southampton,Mr
+131, Not Survived,3,male,33.0,0,0,7.8958,Cherbourg,Mr
+132, Not Survived,3,male,20.0,0,0,7.05,Southampton,Mr
+133, Not Survived,3,female,47.0,1,0,14.5,Southampton,Mrs
+134,Survived,2,female,29.0,1,0,26.0,Southampton,Mrs
+135, Not Survived,2,male,25.0,0,0,13.0,Southampton,Mr
+136, Not Survived,2,male,23.0,0,0,15.0458,Cherbourg,Mr
+137,Survived,1,female,19.0,0,2,26.2833,Southampton,Miss
+138, Not Survived,1,male,37.0,1,0,53.1,Southampton,Mr
+139, Not Survived,3,male,16.0,0,0,9.2167,Southampton,Mr
+140, Not Survived,1,male,24.0,0,0,79.2,Cherbourg,Mr
+141, Not Survived,3,female,,0,2,15.2458,Cherbourg,Mrs
+142,Survived,3,female,22.0,0,0,7.75,Southampton,Miss
+143,Survived,3,female,24.0,1,0,15.85,Southampton,Mrs
+144, Not Survived,3,male,19.0,0,0,6.75,Queenstown,Mr
+145, Not Survived,2,male,18.0,0,0,11.5,Southampton,Mr
+146, Not Survived,2,male,19.0,1,1,36.75,Southampton,Mr
+147,Survived,3,male,27.0,0,0,7.7958,Southampton,Mr
+148, Not Survived,3,female,9.0,2,2,34.375,Southampton,Miss
+149, Not Survived,2,male,36.5,0,2,26.0,Southampton,Mr
+150, Not Survived,2,male,42.0,0,0,13.0,Southampton,Reverend
+151, Not Survived,2,male,51.0,0,0,12.525,Southampton,Reverend
+152,Survived,1,female,22.0,1,0,66.6,Southampton,Mrs
+153, Not Survived,3,male,55.5,0,0,8.05,Southampton,Mr
+154, Not Survived,3,male,40.5,0,2,14.5,Southampton,Mr
+155, Not Survived,3,male,,0,0,7.3125,Southampton,Mr
+156, Not Survived,1,male,51.0,0,1,61.3792,Cherbourg,Mr
+157,Survived,3,female,16.0,0,0,7.7333,Queenstown,Miss
+158, Not Survived,3,male,30.0,0,0,8.05,Southampton,Mr
+159, Not Survived,3,male,,0,0,8.6625,Southampton,Mr
+160, Not Survived,3,male,,8,2,69.55,Southampton,Master
+161, Not Survived,3,male,44.0,0,1,16.1,Southampton,Mr
+162,Survived,2,female,40.0,0,0,15.75,Southampton,Mrs
+163, Not Survived,3,male,26.0,0,0,7.775,Southampton,Mr
+164, Not Survived,3,male,17.0,0,0,8.6625,Southampton,Mr
+165, Not Survived,3,male,1.0,4,1,39.6875,Southampton,Master
+166,Survived,3,male,9.0,0,2,20.525,Southampton,Master
+167,Survived,1,female,,0,1,55.0,Southampton,Mrs
+168, Not Survived,3,female,45.0,1,4,27.9,Southampton,Mrs
+169, Not Survived,1,male,,0,0,25.925,Southampton,Mr
+170, Not Survived,3,male,28.0,0,0,56.4958,Southampton,Mr
+171, Not Survived,1,male,61.0,0,0,33.5,Southampton,Mr
+172, Not Survived,3,male,4.0,4,1,29.125,Queenstown,Master
+173,Survived,3,female,1.0,1,1,11.1333,Southampton,Miss
+174, Not Survived,3,male,21.0,0,0,7.925,Southampton,Mr
+175, Not Survived,1,male,56.0,0,0,30.6958,Cherbourg,Mr
+176, Not Survived,3,male,18.0,1,1,7.8542,Southampton,Mr
+177, Not Survived,3,male,,3,1,25.4667,Southampton,Master
+178, Not Survived,1,female,50.0,0,0,28.7125,Cherbourg,Miss
+179, Not Survived,2,male,30.0,0,0,13.0,Southampton,Mr
+180, Not Survived,3,male,36.0,0,0,0.0,Southampton,Mr
+181, Not Survived,3,female,,8,2,69.55,Southampton,Miss
+182, Not Survived,2,male,,0,0,15.05,Cherbourg,Mr
+183, Not Survived,3,male,9.0,4,2,31.3875,Southampton,Master
+184,Survived,2,male,1.0,2,1,39.0,Southampton,Master
+185,Survived,3,female,4.0,0,2,22.025,Southampton,Miss
+186, Not Survived,1,male,,0,0,50.0,Southampton,Mr
+187,Survived,3,female,,1,0,15.5,Queenstown,Mrs
+188,Survived,1,male,45.0,0,0,26.55,Southampton,Mr
+189, Not Survived,3,male,40.0,1,1,15.5,Queenstown,Mr
+190, Not Survived,3,male,36.0,0,0,7.8958,Southampton,Mr
+191,Survived,2,female,32.0,0,0,13.0,Southampton,Mrs
+192, Not Survived,2,male,19.0,0,0,13.0,Southampton,Mr
+193,Survived,3,female,19.0,1,0,7.8542,Southampton,Miss
+194,Survived,2,male,3.0,1,1,26.0,Southampton,Master
+195,Survived,1,female,44.0,0,0,27.7208,Cherbourg,Mrs
+196,Survived,1,female,58.0,0,0,146.5208,Cherbourg,Miss
+197, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+198, Not Survived,3,male,42.0,0,1,8.4042,Southampton,Mr
+199,Survived,3,female,,0,0,7.75,Queenstown,Miss
+200, Not Survived,2,female,24.0,0,0,13.0,Southampton,Miss
+201, Not Survived,3,male,28.0,0,0,9.5,Southampton,Mr
+202, Not Survived,3,male,,8,2,69.55,Southampton,Mr
+203, Not Survived,3,male,34.0,0,0,6.4958,Southampton,Mr
+204, Not Survived,3,male,45.5,0,0,7.225,Cherbourg,Mr
+205,Survived,3,male,18.0,0,0,8.05,Southampton,Mr
+206, Not Survived,3,female,2.0,0,1,10.4625,Southampton,Miss
+207, Not Survived,3,male,32.0,1,0,15.85,Southampton,Mr
+208,Survived,3,male,26.0,0,0,18.7875,Cherbourg,Mr
+209,Survived,3,female,16.0,0,0,7.75,Queenstown,Miss
+210,Survived,1,male,40.0,0,0,31.0,Cherbourg,Mr
+211, Not Survived,3,male,24.0,0,0,7.05,Southampton,Mr
+212,Survived,2,female,35.0,0,0,21.0,Southampton,Miss
+213, Not Survived,3,male,22.0,0,0,7.25,Southampton,Mr
+214, Not Survived,2,male,30.0,0,0,13.0,Southampton,Mr
+215, Not Survived,3,male,,1,0,7.75,Queenstown,Mr
+216,Survived,1,female,31.0,1,0,113.275,Cherbourg,Miss
+217,Survived,3,female,27.0,0,0,7.925,Southampton,Miss
+218, Not Survived,2,male,42.0,1,0,27.0,Southampton,Mr
+219,Survived,1,female,32.0,0,0,76.2917,Cherbourg,Miss
+220, Not Survived,2,male,30.0,0,0,10.5,Southampton,Mr
+221,Survived,3,male,16.0,0,0,8.05,Southampton,Mr
+222, Not Survived,2,male,27.0,0,0,13.0,Southampton,Mr
+223, Not Survived,3,male,51.0,0,0,8.05,Southampton,Mr
+224, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+225,Survived,1,male,38.0,1,0,90.0,Southampton,Mr
+226, Not Survived,3,male,22.0,0,0,9.35,Southampton,Mr
+227,Survived,2,male,19.0,0,0,10.5,Southampton,Mr
+228, Not Survived,3,male,20.5,0,0,7.25,Southampton,Mr
+229, Not Survived,2,male,18.0,0,0,13.0,Southampton,Mr
+230, Not Survived,3,female,,3,1,25.4667,Southampton,Miss
+231,Survived,1,female,35.0,1,0,83.475,Southampton,Mrs
+232, Not Survived,3,male,29.0,0,0,7.775,Southampton,Mr
+233, Not Survived,2,male,59.0,0,0,13.5,Southampton,Mr
+234,Survived,3,female,5.0,4,2,31.3875,Southampton,Miss
+235, Not Survived,2,male,24.0,0,0,10.5,Southampton,Mr
+236, Not Survived,3,female,,0,0,7.55,Southampton,Miss
+237, Not Survived,2,male,44.0,1,0,26.0,Southampton,Mr
+238,Survived,2,female,8.0,0,2,26.25,Southampton,Miss
+239, Not Survived,2,male,19.0,0,0,10.5,Southampton,Mr
+240, Not Survived,2,male,33.0,0,0,12.275,Southampton,Mr
+241, Not Survived,3,female,,1,0,14.4542,Cherbourg,Miss
+242,Survived,3,female,,1,0,15.5,Queenstown,Miss
+243, Not Survived,2,male,29.0,0,0,10.5,Southampton,Mr
+244, Not Survived,3,male,22.0,0,0,7.125,Southampton,Mr
+245, Not Survived,3,male,30.0,0,0,7.225,Cherbourg,Mr
+246, Not Survived,1,male,44.0,2,0,90.0,Queenstown,Dr
+247, Not Survived,3,female,25.0,0,0,7.775,Southampton,Miss
+248,Survived,2,female,24.0,0,2,14.5,Southampton,Mrs
+249,Survived,1,male,37.0,1,1,52.5542,Southampton,Mr
+250, Not Survived,2,male,54.0,1,0,26.0,Southampton,Reverend
+251, Not Survived,3,male,,0,0,7.25,Southampton,Mr
+252, Not Survived,3,female,29.0,1,1,10.4625,Southampton,Mrs
+253, Not Survived,1,male,62.0,0,0,26.55,Southampton,Mr
+254, Not Survived,3,male,30.0,1,0,16.1,Southampton,Mr
+255, Not Survived,3,female,41.0,0,2,20.2125,Southampton,Mrs
+256,Survived,3,female,29.0,0,2,15.2458,Cherbourg,Mrs
+257,Survived,1,female,,0,0,79.2,Cherbourg,Mrs
+258,Survived,1,female,30.0,0,0,86.5,Southampton,Miss
+259,Survived,1,female,35.0,0,0,512.3292,Cherbourg,Miss
+260,Survived,2,female,50.0,0,1,26.0,Southampton,Mrs
+261, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+262,Survived,3,male,3.0,4,2,31.3875,Southampton,Master
+263, Not Survived,1,male,52.0,1,1,79.65,Southampton,Mr
+264, Not Survived,1,male,40.0,0,0,0.0,Southampton,Mr
+265, Not Survived,3,female,,0,0,7.75,Queenstown,Miss
+266, Not Survived,2,male,36.0,0,0,10.5,Southampton,Mr
+267, Not Survived,3,male,16.0,4,1,39.6875,Southampton,Mr
+268,Survived,3,male,25.0,1,0,7.775,Southampton,Mr
+269,Survived,1,female,58.0,0,1,153.4625,Southampton,Mrs
+270,Survived,1,female,35.0,0,0,135.6333,Southampton,Miss
+271, Not Survived,1,male,,0,0,31.0,Southampton,Mr
+272,Survived,3,male,25.0,0,0,0.0,Southampton,Mr
+273,Survived,2,female,41.0,0,1,19.5,Southampton,Mrs
+274, Not Survived,1,male,37.0,0,1,29.7,Cherbourg,Mr
+275,Survived,3,female,,0,0,7.75,Queenstown,Miss
+276,Survived,1,female,63.0,1,0,77.9583,Southampton,Miss
+277, Not Survived,3,female,45.0,0,0,7.75,Southampton,Miss
+278, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+279, Not Survived,3,male,7.0,4,1,29.125,Queenstown,Master
+280,Survived,3,female,35.0,1,1,20.25,Southampton,Mrs
+281, Not Survived,3,male,65.0,0,0,7.75,Queenstown,Mr
+282, Not Survived,3,male,28.0,0,0,7.8542,Southampton,Mr
+283, Not Survived,3,male,16.0,0,0,9.5,Southampton,Mr
+284,Survived,3,male,19.0,0,0,8.05,Southampton,Mr
+285, Not Survived,1,male,,0,0,26.0,Southampton,Mr
+286, Not Survived,3,male,33.0,0,0,8.6625,Cherbourg,Mr
+287,Survived,3,male,30.0,0,0,9.5,Southampton,Mr
+288, Not Survived,3,male,22.0,0,0,7.8958,Southampton,Mr
+289,Survived,2,male,42.0,0,0,13.0,Southampton,Mr
+290,Survived,3,female,22.0,0,0,7.75,Queenstown,Miss
+291,Survived,1,female,26.0,0,0,78.85,Southampton,Miss
+292,Survived,1,female,19.0,1,0,91.0792,Cherbourg,Mrs
+293, Not Survived,2,male,36.0,0,0,12.875,Cherbourg,Mr
+294, Not Survived,3,female,24.0,0,0,8.85,Southampton,Miss
+295, Not Survived,3,male,24.0,0,0,7.8958,Southampton,Mr
+296, Not Survived,1,male,,0,0,27.7208,Cherbourg,Mr
+297, Not Survived,3,male,23.5,0,0,7.2292,Cherbourg,Mr
+298, Not Survived,1,female,2.0,1,2,151.55,Southampton,Miss
+299,Survived,1,male,,0,0,30.5,Southampton,Mr
+300,Survived,1,female,50.0,0,1,247.5208,Cherbourg,Mrs
+301,Survived,3,female,,0,0,7.75,Queenstown,Miss
+302,Survived,3,male,,2,0,23.25,Queenstown,Mr
+303, Not Survived,3,male,19.0,0,0,0.0,Southampton,Mr
+304,Survived,2,female,,0,0,12.35,Queenstown,Miss
+305, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+306,Survived,1,male,0.92,1,2,151.55,Southampton,Master
+307,Survived,1,female,,0,0,110.8833,Cherbourg,Miss
+308,Survived,1,female,17.0,1,0,108.9,Cherbourg,Mrs
+309, Not Survived,2,male,30.0,1,0,24.0,Cherbourg,Mr
+310,Survived,1,female,30.0,0,0,56.9292,Cherbourg,Miss
+311,Survived,1,female,24.0,0,0,83.1583,Cherbourg,Miss
+312,Survived,1,female,18.0,2,2,262.375,Cherbourg,Miss
+313, Not Survived,2,female,26.0,1,1,26.0,Southampton,Mrs
+314, Not Survived,3,male,28.0,0,0,7.8958,Southampton,Mr
+315, Not Survived,2,male,43.0,1,1,26.25,Southampton,Mr
+316,Survived,3,female,26.0,0,0,7.8542,Southampton,Miss
+317,Survived,2,female,24.0,1,0,26.0,Southampton,Mrs
+318, Not Survived,2,male,54.0,0,0,14.0,Southampton,Dr
+319,Survived,1,female,31.0,0,2,164.8667,Southampton,Miss
+320,Survived,1,female,40.0,1,1,134.5,Cherbourg,Mrs
+321, Not Survived,3,male,22.0,0,0,7.25,Southampton,Mr
+322, Not Survived,3,male,27.0,0,0,7.8958,Southampton,Mr
+323,Survived,2,female,30.0,0,0,12.35,Queenstown,Miss
+324,Survived,2,female,22.0,1,1,29.0,Southampton,Mrs
+325, Not Survived,3,male,,8,2,69.55,Southampton,Mr
+326,Survived,1,female,36.0,0,0,135.6333,Cherbourg,Miss
+327, Not Survived,3,male,61.0,0,0,6.2375,Southampton,Mr
+328,Survived,2,female,36.0,0,0,13.0,Southampton,Mrs
+329,Survived,3,female,31.0,1,1,20.525,Southampton,Mrs
+330,Survived,1,female,16.0,0,1,57.9792,Cherbourg,Miss
+331,Survived,3,female,,2,0,23.25,Queenstown,Miss
+332, Not Survived,1,male,45.5,0,0,28.5,Southampton,Mr
+333, Not Survived,1,male,38.0,0,1,153.4625,Southampton,Mr
+334, Not Survived,3,male,16.0,2,0,18.0,Southampton,Mr
+335,Survived,1,female,,1,0,133.65,Southampton,Mrs
+336, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+337, Not Survived,1,male,29.0,1,0,66.6,Southampton,Mr
+338,Survived,1,female,41.0,0,0,134.5,Cherbourg,Miss
+339,Survived,3,male,45.0,0,0,8.05,Southampton,Mr
+340, Not Survived,1,male,45.0,0,0,35.5,Southampton,Mr
+341,Survived,2,male,2.0,1,1,26.0,Southampton,Master
+342,Survived,1,female,24.0,3,2,263.0,Southampton,Miss
+343, Not Survived,2,male,28.0,0,0,13.0,Southampton,Mr
+344, Not Survived,2,male,25.0,0,0,13.0,Southampton,Mr
+345, Not Survived,2,male,36.0,0,0,13.0,Southampton,Mr
+346,Survived,2,female,24.0,0,0,13.0,Southampton,Miss
+347,Survived,2,female,40.0,0,0,13.0,Southampton,Miss
+348,Survived,3,female,,1,0,16.1,Southampton,Mrs
+349,Survived,3,male,3.0,1,1,15.9,Southampton,Master
+350, Not Survived,3,male,42.0,0,0,8.6625,Southampton,Mr
+351, Not Survived,3,male,23.0,0,0,9.225,Southampton,Mr
+352, Not Survived,1,male,,0,0,35.0,Southampton,Mr
+353, Not Survived,3,male,15.0,1,1,7.2292,Cherbourg,Mr
+354, Not Survived,3,male,25.0,1,0,17.8,Southampton,Mr
+355, Not Survived,3,male,,0,0,7.225,Cherbourg,Mr
+356, Not Survived,3,male,28.0,0,0,9.5,Southampton,Mr
+357,Survived,1,female,22.0,0,1,55.0,Southampton,Miss
+358, Not Survived,2,female,38.0,0,0,13.0,Southampton,Miss
+359,Survived,3,female,,0,0,7.8792,Queenstown,Miss
+360,Survived,3,female,,0,0,7.8792,Queenstown,Miss
+361, Not Survived,3,male,40.0,1,4,27.9,Southampton,Mr
+362, Not Survived,2,male,29.0,1,0,27.7208,Cherbourg,Mr
+363, Not Survived,3,female,45.0,0,1,14.4542,Cherbourg,Mrs
+364, Not Survived,3,male,35.0,0,0,7.05,Southampton,Mr
+365, Not Survived,3,male,,1,0,15.5,Queenstown,Mr
+366, Not Survived,3,male,30.0,0,0,7.25,Southampton,Mr
+367,Survived,1,female,60.0,1,0,75.25,Cherbourg,Mrs
+368,Survived,3,female,,0,0,7.2292,Cherbourg,Mrs
+369,Survived,3,female,,0,0,7.75,Queenstown,Miss
+370,Survived,1,female,24.0,0,0,69.3,Cherbourg,Mrs
+371,Survived,1,male,25.0,1,0,55.4417,Cherbourg,Mr
+372, Not Survived,3,male,18.0,1,0,6.4958,Southampton,Mr
+373, Not Survived,3,male,19.0,0,0,8.05,Southampton,Mr
+374, Not Survived,1,male,22.0,0,0,135.6333,Cherbourg,Mr
+375, Not Survived,3,female,3.0,3,1,21.075,Southampton,Miss
+376,Survived,1,female,,1,0,82.1708,Cherbourg,Mrs
+377,Survived,3,female,22.0,0,0,7.25,Southampton,Miss
+378, Not Survived,1,male,27.0,0,2,211.5,Cherbourg,Mr
+379, Not Survived,3,male,20.0,0,0,4.0125,Cherbourg,Mr
+380, Not Survived,3,male,19.0,0,0,7.775,Southampton,Mr
+381,Survived,1,female,42.0,0,0,227.525,Cherbourg,Miss
+382,Survived,3,female,1.0,0,2,15.7417,Cherbourg,Miss
+383, Not Survived,3,male,32.0,0,0,7.925,Southampton,Mr
+384,Survived,1,female,35.0,1,0,52.0,Southampton,Mrs
+385, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+386, Not Survived,2,male,18.0,0,0,73.5,Southampton,Mr
+387, Not Survived,3,male,1.0,5,2,46.9,Southampton,Master
+388,Survived,2,female,36.0,0,0,13.0,Southampton,Miss
+389, Not Survived,3,male,,0,0,7.7292,Queenstown,Mr
+390,Survived,2,female,17.0,0,0,12.0,Cherbourg,Miss
+391,Survived,1,male,36.0,1,2,120.0,Southampton,Mr
+392,Survived,3,male,21.0,0,0,7.7958,Southampton,Mr
+393, Not Survived,3,male,28.0,2,0,7.925,Southampton,Mr
+394,Survived,1,female,23.0,1,0,113.275,Cherbourg,Miss
+395,Survived,3,female,24.0,0,2,16.7,Southampton,Mrs
+396, Not Survived,3,male,22.0,0,0,7.7958,Southampton,Mr
+397, Not Survived,3,female,31.0,0,0,7.8542,Southampton,Miss
+398, Not Survived,2,male,46.0,0,0,26.0,Southampton,Mr
+399, Not Survived,2,male,23.0,0,0,10.5,Southampton,Dr
+400,Survived,2,female,28.0,0,0,12.65,Southampton,Mrs
+401,Survived,3,male,39.0,0,0,7.925,Southampton,Mr
+402, Not Survived,3,male,26.0,0,0,8.05,Southampton,Mr
+403, Not Survived,3,female,21.0,1,0,9.825,Southampton,Miss
+404, Not Survived,3,male,28.0,1,0,15.85,Southampton,Mr
+405, Not Survived,3,female,20.0,0,0,8.6625,Southampton,Miss
+406, Not Survived,2,male,34.0,1,0,21.0,Southampton,Mr
+407, Not Survived,3,male,51.0,0,0,7.75,Southampton,Mr
+408,Survived,2,male,3.0,1,1,18.75,Southampton,Master
+409, Not Survived,3,male,21.0,0,0,7.775,Southampton,Mr
+410, Not Survived,3,female,,3,1,25.4667,Southampton,Miss
+411, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+412, Not Survived,3,male,,0,0,6.8583,Queenstown,Mr
+413,Survived,1,female,33.0,1,0,90.0,Queenstown,Miss
+414, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+415,Survived,3,male,44.0,0,0,7.925,Southampton,Mr
+416, Not Survived,3,female,,0,0,8.05,Southampton,Mrs
+417,Survived,2,female,34.0,1,1,32.5,Southampton,Mrs
+418,Survived,2,female,18.0,0,2,13.0,Southampton,Miss
+419, Not Survived,2,male,30.0,0,0,13.0,Southampton,Mr
+420, Not Survived,3,female,10.0,0,2,24.15,Southampton,Miss
+421, Not Survived,3,male,,0,0,7.8958,Cherbourg,Mr
+422, Not Survived,3,male,21.0,0,0,7.7333,Queenstown,Mr
+423, Not Survived,3,male,29.0,0,0,7.875,Southampton,Mr
+424, Not Survived,3,female,28.0,1,1,14.4,Southampton,Mrs
+425, Not Survived,3,male,18.0,1,1,20.2125,Southampton,Mr
+426, Not Survived,3,male,,0,0,7.25,Southampton,Mr
+427,Survived,2,female,28.0,1,0,26.0,Southampton,Mrs
+428,Survived,2,female,19.0,0,0,26.0,Southampton,Miss
+429, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+430,Survived,3,male,32.0,0,0,8.05,Southampton,Mr
+431,Survived,1,male,28.0,0,0,26.55,Southampton,Mr
+432,Survived,3,female,,1,0,16.1,Southampton,Mrs
+433,Survived,2,female,42.0,1,0,26.0,Southampton,Mrs
+434, Not Survived,3,male,17.0,0,0,7.125,Southampton,Mr
+435, Not Survived,1,male,50.0,1,0,55.9,Southampton,Mr
+436,Survived,1,female,14.0,1,2,120.0,Southampton,Miss
+437, Not Survived,3,female,21.0,2,2,34.375,Southampton,Miss
+438,Survived,2,female,24.0,2,3,18.75,Southampton,Mrs
+439, Not Survived,1,male,64.0,1,4,263.0,Southampton,Mr
+440, Not Survived,2,male,31.0,0,0,10.5,Southampton,Mr
+441,Survived,2,female,45.0,1,1,26.25,Southampton,Mrs
+442, Not Survived,3,male,20.0,0,0,9.5,Southampton,Mr
+443, Not Survived,3,male,25.0,1,0,7.775,Southampton,Mr
+444,Survived,2,female,28.0,0,0,13.0,Southampton,Miss
+445,Survived,3,male,,0,0,8.1125,Southampton,Mr
+446,Survived,1,male,4.0,0,2,81.8583,Southampton,Master
+447,Survived,2,female,13.0,0,1,19.5,Southampton,Miss
+448,Survived,1,male,34.0,0,0,26.55,Southampton,Mr
+449,Survived,3,female,5.0,2,1,19.2583,Cherbourg,Miss
+450,Survived,1,male,52.0,0,0,30.5,Southampton,Major
+451, Not Survived,2,male,36.0,1,2,27.75,Southampton,Mr
+452, Not Survived,3,male,,1,0,19.9667,Southampton,Mr
+453, Not Survived,1,male,30.0,0,0,27.75,Cherbourg,Mr
+454,Survived,1,male,49.0,1,0,89.1042,Cherbourg,Mr
+455, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+456,Survived,3,male,29.0,0,0,7.8958,Cherbourg,Mr
+457, Not Survived,1,male,65.0,0,0,26.55,Southampton,Mr
+458,Survived,1,female,,1,0,51.8625,Southampton,Mrs
+459,Survived,2,female,50.0,0,0,10.5,Southampton,Miss
+460, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+461,Survived,1,male,48.0,0,0,26.55,Southampton,Mr
+462, Not Survived,3,male,34.0,0,0,8.05,Southampton,Mr
+463, Not Survived,1,male,47.0,0,0,38.5,Southampton,Mr
+464, Not Survived,2,male,48.0,0,0,13.0,Southampton,Mr
+465, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+466, Not Survived,3,male,38.0,0,0,7.05,Southampton,Mr
+467, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+468, Not Survived,1,male,56.0,0,0,26.55,Southampton,Mr
+469, Not Survived,3,male,,0,0,7.725,Queenstown,Mr
+470,Survived,3,female,0.75,2,1,19.2583,Cherbourg,Miss
+471, Not Survived,3,male,,0,0,7.25,Southampton,Mr
+472, Not Survived,3,male,38.0,0,0,8.6625,Southampton,Mr
+473,Survived,2,female,33.0,1,2,27.75,Southampton,Mrs
+474,Survived,2,female,23.0,0,0,13.7917,Cherbourg,Mrs
+475, Not Survived,3,female,22.0,0,0,9.8375,Southampton,Miss
+476, Not Survived,1,male,,0,0,52.0,Southampton,Mr
+477, Not Survived,2,male,34.0,1,0,21.0,Southampton,Mr
+478, Not Survived,3,male,29.0,1,0,7.0458,Southampton,Mr
+479, Not Survived,3,male,22.0,0,0,7.5208,Southampton,Mr
+480,Survived,3,female,2.0,0,1,12.2875,Southampton,Miss
+481, Not Survived,3,male,9.0,5,2,46.9,Southampton,Master
+482, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+483, Not Survived,3,male,50.0,0,0,8.05,Southampton,Mr
+484,Survived,3,female,63.0,0,0,9.5875,Southampton,Mrs
+485,Survived,1,male,25.0,1,0,91.0792,Cherbourg,Mr
+486, Not Survived,3,female,,3,1,25.4667,Southampton,Miss
+487,Survived,1,female,35.0,1,0,90.0,Southampton,Mrs
+488, Not Survived,1,male,58.0,0,0,29.7,Cherbourg,Mr
+489, Not Survived,3,male,30.0,0,0,8.05,Southampton,Mr
+490,Survived,3,male,9.0,1,1,15.9,Southampton,Master
+491, Not Survived,3,male,,1,0,19.9667,Southampton,Mr
+492, Not Survived,3,male,21.0,0,0,7.25,Southampton,Mr
+493, Not Survived,1,male,55.0,0,0,30.5,Southampton,Mr
+494, Not Survived,1,male,71.0,0,0,49.5042,Cherbourg,Mr
+495, Not Survived,3,male,21.0,0,0,8.05,Southampton,Mr
+496, Not Survived,3,male,,0,0,14.4583,Cherbourg,Mr
+497,Survived,1,female,54.0,1,0,78.2667,Cherbourg,Miss
+498, Not Survived,3,male,,0,0,15.1,Southampton,Mr
+499, Not Survived,1,female,25.0,1,2,151.55,Southampton,Mrs
+500, Not Survived,3,male,24.0,0,0,7.7958,Southampton,Mr
+501, Not Survived,3,male,17.0,0,0,8.6625,Southampton,Mr
+502, Not Survived,3,female,21.0,0,0,7.75,Queenstown,Miss
+503, Not Survived,3,female,,0,0,7.6292,Queenstown,Miss
+504, Not Survived,3,female,37.0,0,0,9.5875,Southampton,Miss
+505,Survived,1,female,16.0,0,0,86.5,Southampton,Miss
+506, Not Survived,1,male,18.0,1,0,108.9,Cherbourg,Mr
+507,Survived,2,female,33.0,0,2,26.0,Southampton,Mrs
+508,Survived,1,male,,0,0,26.55,Southampton,Mr
+509, Not Survived,3,male,28.0,0,0,22.525,Southampton,Mr
+510,Survived,3,male,26.0,0,0,56.4958,Southampton,Mr
+511,Survived,3,male,29.0,0,0,7.75,Queenstown,Mr
+512, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+513,Survived,1,male,36.0,0,0,26.2875,Southampton,Mr
+514,Survived,1,female,54.0,1,0,59.4,Cherbourg,Mrs
+515, Not Survived,3,male,24.0,0,0,7.4958,Southampton,Mr
+516, Not Survived,1,male,47.0,0,0,34.0208,Southampton,Mr
+517,Survived,2,female,34.0,0,0,10.5,Southampton,Mrs
+518, Not Survived,3,male,,0,0,24.15,Queenstown,Mr
+519,Survived,2,female,36.0,1,0,26.0,Southampton,Mrs
+520, Not Survived,3,male,32.0,0,0,7.8958,Southampton,Mr
+521,Survived,1,female,30.0,0,0,93.5,Southampton,Miss
+522, Not Survived,3,male,22.0,0,0,7.8958,Southampton,Mr
+523, Not Survived,3,male,,0,0,7.225,Cherbourg,Mr
+524,Survived,1,female,44.0,0,1,57.9792,Cherbourg,Mrs
+525, Not Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+526, Not Survived,3,male,40.5,0,0,7.75,Queenstown,Mr
+527,Survived,2,female,50.0,0,0,10.5,Southampton,Miss
+528, Not Survived,1,male,,0,0,221.7792,Southampton,Mr
+529, Not Survived,3,male,39.0,0,0,7.925,Southampton,Mr
+530, Not Survived,2,male,23.0,2,1,11.5,Southampton,Mr
+531,Survived,2,female,2.0,1,1,26.0,Southampton,Miss
+532, Not Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+533, Not Survived,3,male,17.0,1,1,7.2292,Cherbourg,Mr
+534,Survived,3,female,,0,2,22.3583,Cherbourg,Mrs
+535, Not Survived,3,female,30.0,0,0,8.6625,Southampton,Miss
+536,Survived,2,female,7.0,0,2,26.25,Southampton,Miss
+537, Not Survived,1,male,45.0,0,0,26.55,Southampton,Major
+538,Survived,1,female,30.0,0,0,106.425,Cherbourg,Miss
+539, Not Survived,3,male,,0,0,14.5,Southampton,Mr
+540,Survived,1,female,22.0,0,2,49.5,Cherbourg,Miss
+541,Survived,1,female,36.0,0,2,71.0,Southampton,Miss
+542, Not Survived,3,female,9.0,4,2,31.275,Southampton,Miss
+543, Not Survived,3,female,11.0,4,2,31.275,Southampton,Miss
+544,Survived,2,male,32.0,1,0,26.0,Southampton,Mr
+545, Not Survived,1,male,50.0,1,0,106.425,Cherbourg,Mr
+546, Not Survived,1,male,64.0,0,0,26.0,Southampton,Mr
+547,Survived,2,female,19.0,1,0,26.0,Southampton,Mrs
+548,Survived,2,male,,0,0,13.8625,Cherbourg,Mr
+549, Not Survived,3,male,33.0,1,1,20.525,Southampton,Mr
+550,Survived,2,male,8.0,1,1,36.75,Southampton,Master
+551,Survived,1,male,17.0,0,2,110.8833,Cherbourg,Mr
+552, Not Survived,2,male,27.0,0,0,26.0,Southampton,Mr
+553, Not Survived,3,male,,0,0,7.8292,Queenstown,Mr
+554,Survived,3,male,22.0,0,0,7.225,Cherbourg,Mr
+555,Survived,3,female,22.0,0,0,7.775,Southampton,Miss
+556, Not Survived,1,male,62.0,0,0,26.55,Southampton,Mr
+557,Survived,1,female,48.0,1,0,39.6,Cherbourg,Lady
+558, Not Survived,1,male,,0,0,227.525,Cherbourg,Mr
+559,Survived,1,female,39.0,1,1,79.65,Southampton,Mrs
+560,Survived,3,female,36.0,1,0,17.4,Southampton,Mrs
+561, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+562, Not Survived,3,male,40.0,0,0,7.8958,Southampton,Mr
+563, Not Survived,2,male,28.0,0,0,13.5,Southampton,Mr
+564, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+565, Not Survived,3,female,,0,0,8.05,Southampton,Miss
+566, Not Survived,3,male,24.0,2,0,24.15,Southampton,Mr
+567, Not Survived,3,male,19.0,0,0,7.8958,Southampton,Mr
+568, Not Survived,3,female,29.0,0,4,21.075,Southampton,Mrs
+569, Not Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+570,Survived,3,male,32.0,0,0,7.8542,Southampton,Mr
+571,Survived,2,male,62.0,0,0,10.5,Southampton,Mr
+572,Survived,1,female,53.0,2,0,51.4792,Southampton,Mrs
+573,Survived,1,male,36.0,0,0,26.3875,Southampton,Mr
+574,Survived,3,female,,0,0,7.75,Queenstown,Miss
+575, Not Survived,3,male,16.0,0,0,8.05,Southampton,Mr
+576, Not Survived,3,male,19.0,0,0,14.5,Southampton,Mr
+577,Survived,2,female,34.0,0,0,13.0,Southampton,Miss
+578,Survived,1,female,39.0,1,0,55.9,Southampton,Mrs
+579, Not Survived,3,female,,1,0,14.4583,Cherbourg,Mrs
+580,Survived,3,male,32.0,0,0,7.925,Southampton,Mr
+581,Survived,2,female,25.0,1,1,30.0,Southampton,Miss
+582,Survived,1,female,39.0,1,1,110.8833,Cherbourg,Mrs
+583, Not Survived,2,male,54.0,0,0,26.0,Southampton,Mr
+584, Not Survived,1,male,36.0,0,0,40.125,Cherbourg,Mr
+585, Not Survived,3,male,,0,0,8.7125,Cherbourg,Mr
+586,Survived,1,female,18.0,0,2,79.65,Southampton,Miss
+587, Not Survived,2,male,47.0,0,0,15.0,Southampton,Mr
+588,Survived,1,male,60.0,1,1,79.2,Cherbourg,Mr
+589, Not Survived,3,male,22.0,0,0,8.05,Southampton,Mr
+590, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+591, Not Survived,3,male,35.0,0,0,7.125,Southampton,Mr
+592,Survived,1,female,52.0,1,0,78.2667,Cherbourg,Mrs
+593, Not Survived,3,male,47.0,0,0,7.25,Southampton,Mr
+594, Not Survived,3,female,,0,2,7.75,Queenstown,Miss
+595, Not Survived,2,male,37.0,1,0,26.0,Southampton,Mr
+596, Not Survived,3,male,36.0,1,1,24.15,Southampton,Mr
+597,Survived,2,female,,0,0,33.0,Southampton,Miss
+598, Not Survived,3,male,49.0,0,0,0.0,Southampton,Mr
+599, Not Survived,3,male,,0,0,7.225,Cherbourg,Mr
+600,Survived,1,male,49.0,1,0,56.9292,Cherbourg,Sir
+601,Survived,2,female,24.0,2,1,27.0,Southampton,Mrs
+602, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+603, Not Survived,1,male,,0,0,42.4,Southampton,Mr
+604, Not Survived,3,male,44.0,0,0,8.05,Southampton,Mr
+605,Survived,1,male,35.0,0,0,26.55,Cherbourg,Mr
+606, Not Survived,3,male,36.0,1,0,15.55,Southampton,Mr
+607, Not Survived,3,male,30.0,0,0,7.8958,Southampton,Mr
+608,Survived,1,male,27.0,0,0,30.5,Southampton,Mr
+609,Survived,2,female,22.0,1,2,41.5792,Cherbourg,Mrs
+610,Survived,1,female,40.0,0,0,153.4625,Southampton,Miss
+611, Not Survived,3,female,39.0,1,5,31.275,Southampton,Mrs
+612, Not Survived,3,male,,0,0,7.05,Southampton,Mr
+613,Survived,3,female,,1,0,15.5,Queenstown,Miss
+614, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+615, Not Survived,3,male,35.0,0,0,8.05,Southampton,Mr
+616,Survived,2,female,24.0,1,2,65.0,Southampton,Miss
+617, Not Survived,3,male,34.0,1,1,14.4,Southampton,Mr
+618, Not Survived,3,female,26.0,1,0,16.1,Southampton,Mrs
+619,Survived,2,female,4.0,2,1,39.0,Southampton,Miss
+620, Not Survived,2,male,26.0,0,0,10.5,Southampton,Mr
+621, Not Survived,3,male,27.0,1,0,14.4542,Cherbourg,Mr
+622,Survived,1,male,42.0,1,0,52.5542,Southampton,Mr
+623,Survived,3,male,20.0,1,1,15.7417,Cherbourg,Mr
+624, Not Survived,3,male,21.0,0,0,7.8542,Southampton,Mr
+625, Not Survived,3,male,21.0,0,0,16.1,Southampton,Mr
+626, Not Survived,1,male,61.0,0,0,32.3208,Southampton,Mr
+627, Not Survived,2,male,57.0,0,0,12.35,Queenstown,Reverend
+628,Survived,1,female,21.0,0,0,77.9583,Southampton,Miss
+629, Not Survived,3,male,26.0,0,0,7.8958,Southampton,Mr
+630, Not Survived,3,male,,0,0,7.7333,Queenstown,Mr
+631,Survived,1,male,80.0,0,0,30.0,Southampton,Mr
+632, Not Survived,3,male,51.0,0,0,7.0542,Southampton,Mr
+633,Survived,1,male,32.0,0,0,30.5,Cherbourg,Dr
+634, Not Survived,1,male,,0,0,0.0,Southampton,Mr
+635, Not Survived,3,female,9.0,3,2,27.9,Southampton,Miss
+636,Survived,2,female,28.0,0,0,13.0,Southampton,Miss
+637, Not Survived,3,male,32.0,0,0,7.925,Southampton,Mr
+638, Not Survived,2,male,31.0,1,1,26.25,Southampton,Mr
+639, Not Survived,3,female,41.0,0,5,39.6875,Southampton,Mrs
+640, Not Survived,3,male,,1,0,16.1,Southampton,Mr
+641, Not Survived,3,male,20.0,0,0,7.8542,Southampton,Mr
+642,Survived,1,female,24.0,0,0,69.3,Cherbourg,Miss
+643, Not Survived,3,female,2.0,3,2,27.9,Southampton,Miss
+644,Survived,3,male,,0,0,56.4958,Southampton,Mr
+645,Survived,3,female,0.75,2,1,19.2583,Cherbourg,Miss
+646,Survived,1,male,48.0,1,0,76.7292,Cherbourg,Mr
+647, Not Survived,3,male,19.0,0,0,7.8958,Southampton,Mr
+648,Survived,1,male,56.0,0,0,35.5,Cherbourg,Colonel
+649, Not Survived,3,male,,0,0,7.55,Southampton,Mr
+650,Survived,3,female,23.0,0,0,7.55,Southampton,Miss
+651, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+652,Survived,2,female,18.0,0,1,23.0,Southampton,Miss
+653, Not Survived,3,male,21.0,0,0,8.4333,Southampton,Mr
+654,Survived,3,female,,0,0,7.8292,Queenstown,Miss
+655, Not Survived,3,female,18.0,0,0,6.75,Queenstown,Miss
+656, Not Survived,2,male,24.0,2,0,73.5,Southampton,Mr
+657, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+658, Not Survived,3,female,32.0,1,1,15.5,Queenstown,Mrs
+659, Not Survived,2,male,23.0,0,0,13.0,Southampton,Mr
+660, Not Survived,1,male,58.0,0,2,113.275,Cherbourg,Mr
+661,Survived,1,male,50.0,2,0,133.65,Southampton,Dr
+662, Not Survived,3,male,40.0,0,0,7.225,Cherbourg,Mr
+663, Not Survived,1,male,47.0,0,0,25.5875,Southampton,Mr
+664, Not Survived,3,male,36.0,0,0,7.4958,Southampton,Mr
+665,Survived,3,male,20.0,1,0,7.925,Southampton,Mr
+666, Not Survived,2,male,32.0,2,0,73.5,Southampton,Mr
+667, Not Survived,2,male,25.0,0,0,13.0,Southampton,Mr
+668, Not Survived,3,male,,0,0,7.775,Southampton,Mr
+669, Not Survived,3,male,43.0,0,0,8.05,Southampton,Mr
+670,Survived,1,female,,1,0,52.0,Southampton,Mrs
+671,Survived,2,female,40.0,1,1,39.0,Southampton,Mrs
+672, Not Survived,1,male,31.0,1,0,52.0,Southampton,Mr
+673, Not Survived,2,male,70.0,0,0,10.5,Southampton,Mr
+674,Survived,2,male,31.0,0,0,13.0,Southampton,Mr
+675, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+676, Not Survived,3,male,18.0,0,0,7.775,Southampton,Mr
+677, Not Survived,3,male,24.5,0,0,8.05,Southampton,Mr
+678,Survived,3,female,18.0,0,0,9.8417,Southampton,Miss
+679, Not Survived,3,female,43.0,1,6,46.9,Southampton,Mrs
+680,Survived,1,male,36.0,0,1,512.3292,Cherbourg,Mr
+681, Not Survived,3,female,,0,0,8.1375,Queenstown,Miss
+682,Survived,1,male,27.0,0,0,76.7292,Cherbourg,Mr
+683, Not Survived,3,male,20.0,0,0,9.225,Southampton,Mr
+684, Not Survived,3,male,14.0,5,2,46.9,Southampton,Mr
+685, Not Survived,2,male,60.0,1,1,39.0,Southampton,Mr
+686, Not Survived,2,male,25.0,1,2,41.5792,Cherbourg,Mr
+687, Not Survived,3,male,14.0,4,1,39.6875,Southampton,Mr
+688, Not Survived,3,male,19.0,0,0,10.1708,Southampton,Mr
+689, Not Survived,3,male,18.0,0,0,7.7958,Southampton,Mr
+690,Survived,1,female,15.0,0,1,211.3375,Southampton,Miss
+691,Survived,1,male,31.0,1,0,57.0,Southampton,Mr
+692,Survived,3,female,4.0,0,1,13.4167,Cherbourg,Miss
+693,Survived,3,male,,0,0,56.4958,Southampton,Mr
+694, Not Survived,3,male,25.0,0,0,7.225,Cherbourg,Mr
+695, Not Survived,1,male,60.0,0,0,26.55,Southampton,Colonel
+696, Not Survived,2,male,52.0,0,0,13.5,Southampton,Mr
+697, Not Survived,3,male,44.0,0,0,8.05,Southampton,Mr
+698,Survived,3,female,,0,0,7.7333,Queenstown,Miss
+699, Not Survived,1,male,49.0,1,1,110.8833,Cherbourg,Mr
+700, Not Survived,3,male,42.0,0,0,7.65,Southampton,Mr
+701,Survived,1,female,18.0,1,0,227.525,Cherbourg,Mrs
+702,Survived,1,male,35.0,0,0,26.2875,Southampton,Mr
+703, Not Survived,3,female,18.0,0,1,14.4542,Cherbourg,Miss
+704, Not Survived,3,male,25.0,0,0,7.7417,Queenstown,Mr
+705, Not Survived,3,male,26.0,1,0,7.8542,Southampton,Mr
+706, Not Survived,2,male,39.0,0,0,26.0,Southampton,Mr
+707,Survived,2,female,45.0,0,0,13.5,Southampton,Mrs
+708,Survived,1,male,42.0,0,0,26.2875,Southampton,Mr
+709,Survived,1,female,22.0,0,0,151.55,Southampton,Miss
+710,Survived,3,male,,1,1,15.2458,Cherbourg,Master
+711,Survived,1,female,24.0,0,0,49.5042,Cherbourg,Miss
+712, Not Survived,1,male,,0,0,26.55,Southampton,Mr
+713,Survived,1,male,48.0,1,0,52.0,Southampton,Mr
+714, Not Survived,3,male,29.0,0,0,9.4833,Southampton,Mr
+715, Not Survived,2,male,52.0,0,0,13.0,Southampton,Mr
+716, Not Survived,3,male,19.0,0,0,7.65,Southampton,Mr
+717,Survived,1,female,38.0,0,0,227.525,Cherbourg,Miss
+718,Survived,2,female,27.0,0,0,10.5,Southampton,Miss
+719, Not Survived,3,male,,0,0,15.5,Queenstown,Mr
+720, Not Survived,3,male,33.0,0,0,7.775,Southampton,Mr
+721,Survived,2,female,6.0,0,1,33.0,Southampton,Miss
+722, Not Survived,3,male,17.0,1,0,7.0542,Southampton,Mr
+723, Not Survived,2,male,34.0,0,0,13.0,Southampton,Mr
+724, Not Survived,2,male,50.0,0,0,13.0,Southampton,Mr
+725,Survived,1,male,27.0,1,0,53.1,Southampton,Mr
+726, Not Survived,3,male,20.0,0,0,8.6625,Southampton,Mr
+727,Survived,2,female,30.0,3,0,21.0,Southampton,Mrs
+728,Survived,3,female,,0,0,7.7375,Queenstown,Miss
+729, Not Survived,2,male,25.0,1,0,26.0,Southampton,Mr
+730, Not Survived,3,female,25.0,1,0,7.925,Southampton,Miss
+731,Survived,1,female,29.0,0,0,211.3375,Southampton,Miss
+732, Not Survived,3,male,11.0,0,0,18.7875,Cherbourg,Mr
+733, Not Survived,2,male,,0,0,0.0,Southampton,Mr
+734, Not Survived,2,male,23.0,0,0,13.0,Southampton,Mr
+735, Not Survived,2,male,23.0,0,0,13.0,Southampton,Mr
+736, Not Survived,3,male,28.5,0,0,16.1,Southampton,Mr
+737, Not Survived,3,female,48.0,1,3,34.375,Southampton,Mrs
+738,Survived,1,male,35.0,0,0,512.3292,Cherbourg,Mr
+739, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+740, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+741,Survived,1,male,,0,0,30.0,Southampton,Mr
+742, Not Survived,1,male,36.0,1,0,78.85,Southampton,Mr
+743,Survived,1,female,21.0,2,2,262.375,Cherbourg,Miss
+744, Not Survived,3,male,24.0,1,0,16.1,Southampton,Mr
+745,Survived,3,male,31.0,0,0,7.925,Southampton,Mr
+746, Not Survived,1,male,70.0,1,1,71.0,Southampton,Captain
+747, Not Survived,3,male,16.0,1,1,20.25,Southampton,Mr
+748,Survived,2,female,30.0,0,0,13.0,Southampton,Miss
+749, Not Survived,1,male,19.0,1,0,53.1,Southampton,Mr
+750, Not Survived,3,male,31.0,0,0,7.75,Queenstown,Mr
+751,Survived,2,female,4.0,1,1,23.0,Southampton,Miss
+752,Survived,3,male,6.0,0,1,12.475,Southampton,Master
+753, Not Survived,3,male,33.0,0,0,9.5,Southampton,Mr
+754, Not Survived,3,male,23.0,0,0,7.8958,Southampton,Mr
+755,Survived,2,female,48.0,1,2,65.0,Southampton,Mrs
+756,Survived,2,male,0.67,1,1,14.5,Southampton,Master
+757, Not Survived,3,male,28.0,0,0,7.7958,Southampton,Mr
+758, Not Survived,2,male,18.0,0,0,11.5,Southampton,Mr
+759, Not Survived,3,male,34.0,0,0,8.05,Southampton,Mr
+760,Survived,1,female,33.0,0,0,86.5,Southampton,the Countess
+761, Not Survived,3,male,,0,0,14.5,Southampton,Mr
+762, Not Survived,3,male,41.0,0,0,7.125,Southampton,Mr
+763,Survived,3,male,20.0,0,0,7.2292,Cherbourg,Mr
+764,Survived,1,female,36.0,1,2,120.0,Southampton,Mrs
+765, Not Survived,3,male,16.0,0,0,7.775,Southampton,Mr
+766,Survived,1,female,51.0,1,0,77.9583,Southampton,Mrs
+767, Not Survived,1,male,,0,0,39.6,Cherbourg,Dr
+768, Not Survived,3,female,30.5,0,0,7.75,Queenstown,Miss
+769, Not Survived,3,male,,1,0,24.15,Queenstown,Mr
+770, Not Survived,3,male,32.0,0,0,8.3625,Southampton,Mr
+771, Not Survived,3,male,24.0,0,0,9.5,Southampton,Mr
+772, Not Survived,3,male,48.0,0,0,7.8542,Southampton,Mr
+773, Not Survived,2,female,57.0,0,0,10.5,Southampton,Mrs
+774, Not Survived,3,male,,0,0,7.225,Cherbourg,Mr
+775,Survived,2,female,54.0,1,3,23.0,Southampton,Mrs
+776, Not Survived,3,male,18.0,0,0,7.75,Southampton,Mr
+777, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+778,Survived,3,female,5.0,0,0,12.475,Southampton,Miss
+779, Not Survived,3,male,,0,0,7.7375,Queenstown,Mr
+780,Survived,1,female,43.0,0,1,211.3375,Southampton,Mrs
+781,Survived,3,female,13.0,0,0,7.2292,Cherbourg,Miss
+782,Survived,1,female,17.0,1,0,57.0,Southampton,Mrs
+783, Not Survived,1,male,29.0,0,0,30.0,Southampton,Mr
+784, Not Survived,3,male,,1,2,23.45,Southampton,Mr
+785, Not Survived,3,male,25.0,0,0,7.05,Southampton,Mr
+786, Not Survived,3,male,25.0,0,0,7.25,Southampton,Mr
+787,Survived,3,female,18.0,0,0,7.4958,Southampton,Miss
+788, Not Survived,3,male,8.0,4,1,29.125,Queenstown,Master
+789,Survived,3,male,1.0,1,2,20.575,Southampton,Master
+790, Not Survived,1,male,46.0,0,0,79.2,Cherbourg,Mr
+791, Not Survived,3,male,,0,0,7.75,Queenstown,Mr
+792, Not Survived,2,male,16.0,0,0,26.0,Southampton,Mr
+793, Not Survived,3,female,,8,2,69.55,Southampton,Miss
+794, Not Survived,1,male,,0,0,30.6958,Cherbourg,Mr
+795, Not Survived,3,male,25.0,0,0,7.8958,Southampton,Mr
+796, Not Survived,2,male,39.0,0,0,13.0,Southampton,Mr
+797,Survived,1,female,49.0,0,0,25.9292,Southampton,Dr
+798,Survived,3,female,31.0,0,0,8.6833,Southampton,Mrs
+799, Not Survived,3,male,30.0,0,0,7.2292,Cherbourg,Mr
+800, Not Survived,3,female,30.0,1,1,24.15,Southampton,Mrs
+801, Not Survived,2,male,34.0,0,0,13.0,Southampton,Mr
+802,Survived,2,female,31.0,1,1,26.25,Southampton,Mrs
+803,Survived,1,male,11.0,1,2,120.0,Southampton,Master
+804,Survived,3,male,0.42,0,1,8.5167,Cherbourg,Master
+805,Survived,3,male,27.0,0,0,6.975,Southampton,Mr
+806, Not Survived,3,male,31.0,0,0,7.775,Southampton,Mr
+807, Not Survived,1,male,39.0,0,0,0.0,Southampton,Mr
+808, Not Survived,3,female,18.0,0,0,7.775,Southampton,Miss
+809, Not Survived,2,male,39.0,0,0,13.0,Southampton,Mr
+810,Survived,1,female,33.0,1,0,53.1,Southampton,Mrs
+811, Not Survived,3,male,26.0,0,0,7.8875,Southampton,Mr
+812, Not Survived,3,male,39.0,0,0,24.15,Southampton,Mr
+813, Not Survived,2,male,35.0,0,0,10.5,Southampton,Mr
+814, Not Survived,3,female,6.0,4,2,31.275,Southampton,Miss
+815, Not Survived,3,male,30.5,0,0,8.05,Southampton,Mr
+816, Not Survived,1,male,,0,0,0.0,Southampton,Mr
+817, Not Survived,3,female,23.0,0,0,7.925,Southampton,Miss
+818, Not Survived,2,male,31.0,1,1,37.0042,Cherbourg,Mr
+819, Not Survived,3,male,43.0,0,0,6.45,Southampton,Mr
+820, Not Survived,3,male,10.0,3,2,27.9,Southampton,Master
+821,Survived,1,female,52.0,1,1,93.5,Southampton,Mrs
+822,Survived,3,male,27.0,0,0,8.6625,Southampton,Mr
+823, Not Survived,1,male,38.0,0,0,0.0,Southampton,Jonkheer
+824,Survived,3,female,27.0,0,1,12.475,Southampton,Mrs
+825, Not Survived,3,male,2.0,4,1,39.6875,Southampton,Master
+826, Not Survived,3,male,,0,0,6.95,Queenstown,Mr
+827, Not Survived,3,male,,0,0,56.4958,Southampton,Mr
+828,Survived,2,male,1.0,0,2,37.0042,Cherbourg,Master
+829,Survived,3,male,,0,0,7.75,Queenstown,Mr
+830,Survived,1,female,62.0,0,0,80.0,,Mrs
+831,Survived,3,female,15.0,1,0,14.4542,Cherbourg,Mrs
+832,Survived,2,male,0.83,1,1,18.75,Southampton,Master
+833, Not Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+834, Not Survived,3,male,23.0,0,0,7.8542,Southampton,Mr
+835, Not Survived,3,male,18.0,0,0,8.3,Southampton,Mr
+836,Survived,1,female,39.0,1,1,83.1583,Cherbourg,Miss
+837, Not Survived,3,male,21.0,0,0,8.6625,Southampton,Mr
+838, Not Survived,3,male,,0,0,8.05,Southampton,Mr
+839,Survived,3,male,32.0,0,0,56.4958,Southampton,Mr
+840,Survived,1,male,,0,0,29.7,Cherbourg,Mr
+841, Not Survived,3,male,20.0,0,0,7.925,Southampton,Mr
+842, Not Survived,2,male,16.0,0,0,10.5,Southampton,Mr
+843,Survived,1,female,30.0,0,0,31.0,Cherbourg,Miss
+844, Not Survived,3,male,34.5,0,0,6.4375,Cherbourg,Mr
+845, Not Survived,3,male,17.0,0,0,8.6625,Southampton,Mr
+846, Not Survived,3,male,42.0,0,0,7.55,Southampton,Mr
+847, Not Survived,3,male,,8,2,69.55,Southampton,Mr
+848, Not Survived,3,male,35.0,0,0,7.8958,Cherbourg,Mr
+849, Not Survived,2,male,28.0,0,1,33.0,Southampton,Reverend
+850,Survived,1,female,,1,0,89.1042,Cherbourg,Mrs
+851, Not Survived,3,male,4.0,4,2,31.275,Southampton,Master
+852, Not Survived,3,male,74.0,0,0,7.775,Southampton,Mr
+853, Not Survived,3,female,9.0,1,1,15.2458,Cherbourg,Miss
+854,Survived,1,female,16.0,0,1,39.4,Southampton,Miss
+855, Not Survived,2,female,44.0,1,0,26.0,Southampton,Mrs
+856,Survived,3,female,18.0,0,1,9.35,Southampton,Mrs
+857,Survived,1,female,45.0,1,1,164.8667,Southampton,Mrs
+858,Survived,1,male,51.0,0,0,26.55,Southampton,Mr
+859,Survived,3,female,24.0,0,3,19.2583,Cherbourg,Mrs
+860, Not Survived,3,male,,0,0,7.2292,Cherbourg,Mr
+861, Not Survived,3,male,41.0,2,0,14.1083,Southampton,Mr
+862, Not Survived,2,male,21.0,1,0,11.5,Southampton,Mr
+863,Survived,1,female,48.0,0,0,25.9292,Southampton,Mrs
+864, Not Survived,3,female,,8,2,69.55,Southampton,Miss
+865, Not Survived,2,male,24.0,0,0,13.0,Southampton,Mr
+866,Survived,2,female,42.0,0,0,13.0,Southampton,Mrs
+867,Survived,2,female,27.0,1,0,13.8583,Cherbourg,Miss
+868, Not Survived,1,male,31.0,0,0,50.4958,Southampton,Mr
+869, Not Survived,3,male,,0,0,9.5,Southampton,Mr
+870,Survived,3,male,4.0,1,1,11.1333,Southampton,Master
+871, Not Survived,3,male,26.0,0,0,7.8958,Southampton,Mr
+872,Survived,1,female,47.0,1,1,52.5542,Southampton,Mrs
+873, Not Survived,1,male,33.0,0,0,5.0,Southampton,Mr
+874, Not Survived,3,male,47.0,0,0,9.0,Southampton,Mr
+875,Survived,2,female,28.0,1,0,24.0,Cherbourg,Mrs
+876,Survived,3,female,15.0,0,0,7.225,Cherbourg,Miss
+877, Not Survived,3,male,20.0,0,0,9.8458,Southampton,Mr
+878, Not Survived,3,male,19.0,0,0,7.8958,Southampton,Mr
+879, Not Survived,3,male,,0,0,7.8958,Southampton,Mr
+880,Survived,1,female,56.0,0,1,83.1583,Cherbourg,Mrs
+881,Survived,2,female,25.0,0,1,26.0,Southampton,Mrs
+882, Not Survived,3,male,33.0,0,0,7.8958,Southampton,Mr
+883, Not Survived,3,female,22.0,0,0,10.5167,Southampton,Miss
+884, Not Survived,2,male,28.0,0,0,10.5,Southampton,Mr
+885, Not Survived,3,male,25.0,0,0,7.05,Southampton,Mr
+886, Not Survived,3,female,39.0,0,5,29.125,Queenstown,Mrs
+887, Not Survived,2,male,27.0,0,0,13.0,Southampton,Reverend
+888,Survived,1,female,19.0,0,0,30.0,Southampton,Miss
+889, Not Survived,3,female,,1,2,23.45,Southampton,Miss
+890,Survived,1,male,26.0,0,0,30.0,Cherbourg,Mr
+891, Not Survived,3,male,32.0,0,0,7.75,Queenstown,Mr
