@@ -1,2 +1,2 @@
 # titanic_project
-python project using colab
+DataAnalyst python project using colab
